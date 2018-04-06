@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Bewingo Bayi",
+    "description": "An empty new project",
+    "slug": "bewingoapp",
+    "privacy": "public",
+    "sdkVersion": "20.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#377BCE",
+    "icon": "./assets/icons/app-icon.png",
+    "loading": {
+      "icon": "./assets/icons/loading-icon.png",
+      "hideExponentText": true,
+      "backgroundColor": "#377BCE",
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "bundleIdentifier" : "com.bewingo.bewingoapp",
+      "supportsTablet": true
+    },
+    "notification":{
+      "icon": "./assets/icons/icon-48.png",
+      "color": "#377BCE",
+    },
+    "android": {
+       "package": "com.bewingo.bewingoapp"
+   }
+  }
+}
